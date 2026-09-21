@@ -1,8 +1,8 @@
-# Module 4 - Prompting for UI Based on a Visual Contract
+# Module 1 - Prompting for UI Based on a Visual Contract
 
 ## Exercise Solutions
 
-This document contains the reference answers for the two activity tasks in Module 4. Try the tasks first using `Lab.md` before reading these solutions.
+This document contains the reference answers for the two activity tasks in Module 1. Try the tasks first using `Lab.md` before reading these solutions.
 
 ---
 

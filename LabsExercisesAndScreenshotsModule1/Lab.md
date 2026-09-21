@@ -1,26 +1,26 @@
-# Module 4 - Prompting for UI Based on a Visual Contract
+# Module 1 - Prompting for UI Based on a Visual Contract
 
 
 
 ## Lab Guide
 
-This guide contains the Lab walkthroughs and the activity instructions for Module 4. Follow each lab task alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
+This guide contains the Lab walkthroughs and the activity instructions for Module 1. Follow each lab task alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
 
 > *LLM outputs are non-deterministic - your outputs may differ from what the instructor or this guide shows. Treat the references here as expected behavior, not as exact matches.*
 
-> **Note for learners**: The front-end for subsequent modules may start from a template that differs from the Module 3 end state. This is intentional and designed to support each module's learning objectives.
+> **Note for learners**: Each module starts from a known-good state of the app rather than from the previous module's end state. This is intentional: it means a module is never blocked by an earlier one, and you can join any module cleanly.
 
-This Lab uses the branch `module-4-start`
+This Lab uses the branch `module-1-start`
 
 ---
 
-## Module 4 Lab 1 - The vague UI prompt
+## Module 1 Lab 1 - The vague UI prompt
 
 **Goal:** Run a deliberately vague UI prompt and observe what Copilot has to guess when no visual contract is given.
 
 ### Setup
 
-- Use `temp-task-manager-app/frontend` for this demo
+- Use `packages/frontend` for this demo
 - The goal is to observe what Copilot guesses when useful context is removed
 
 ### Tab hygiene
@@ -88,7 +88,7 @@ The next step is not a longer prompt, but rather a more constrained prompt.
 
 ---
 
-## Module 4 Lab 2 - The constrained UI prompt
+## Module 1 Lab 2 - The constrained UI prompt
 
 **Goal:** Run a constrained prompt that names layout, component boundaries, behavior, and styling so Copilot has fewer decisions to make.
 
@@ -203,7 +203,7 @@ The reference answers can be found in `Exercise.md`.
 
 ---
 
-## Module 4 Lab 3 - Screenshot as a visual contract
+## Module 1 Lab 3 - Screenshot as a visual contract
 
 **Goal:** Use a screenshot as the visual source of truth in place of description-based prompting.
 
@@ -336,4 +336,4 @@ A screenshot shows structure, but the prompt still defines the rules.
 
 The reference answers can be found in `Exercise.md`.
 
-The next Lab begins on the branch `module-5-start`
+The next Lab begins on the branch `module-2-start`
