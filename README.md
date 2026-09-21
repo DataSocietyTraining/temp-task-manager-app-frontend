@@ -8,7 +8,7 @@ The backend uses TypeScript, Express, and Zod for validation. The frontend uses 
 
 You have two folders:
 
-- **`temp-task-manager-app`** — your working directory. Everything you build through prompting goes here.
+- **`temp-task-manager-app-frontend`** — your working directory. Everything you build through prompting goes here.
 - **`task-manager-app`** — the complete reference implementation. If you get stuck, copy what you need from here and continue.
 
 ---
@@ -35,7 +35,7 @@ pnpm dev:frontend
 ## Repository Structure
 
 ```
-temp-task-manager-app/
+temp-task-manager-app-frontend/
 ├── packages/
 │   ├── backend/
 │   │   └── src/
@@ -55,7 +55,7 @@ temp-task-manager-app/
 │   │       │   └── taskStore.ts ← In-memory task store with resetTaskStore()
 │   │       └── types/
 │   │           └── task.ts      ← Task interface (id, text, description, completed, isHighImpact)
-│   ├── frontend/
+│   └── frontend/
 │   │   └── src/
 │   │       ├── App.tsx          ← Root component, state management, tab routing
 │   │       ├── api/
@@ -64,12 +64,6 @@ temp-task-manager-app/
 │   │       │                         TaskList, FocusModeCard, ArchiveActions, EmptyState, Button
 │   │       └── types/
 │   │           └── task.ts      ← Task interface (mirrors backend)
-│   └── tests/
-│       ├── integration/
-│       │   └── tasksHttp.test.ts        ← HTTP integration tests
-│       └── unit/
-│           ├── taskSchemas.test.ts      ← Zod schema unit tests
-│           └── taskStore.test.ts        ← Store unit tests
 └── package.json                 ← pnpm workspace root, dev/build/test scripts
 
 ```
