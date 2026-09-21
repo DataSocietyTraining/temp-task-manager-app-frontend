@@ -1,16 +1,16 @@
-# Module 6 - Design Tokens and Performance Optimization
+# Module 3 - Design Tokens and Performance Optimization
 
 ## Lab Guide
 
-This guide contains the demo walkthroughs and the activity instructions for Module 6. Follow each demo alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
+This guide contains the demo walkthroughs and the activity instructions for Module 3. Follow each demo alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a check.
 
 > LLM outputs are non-deterministic - your outputs may differ from what the instructor or this guide shows. Treat the references here as expected behavior, not as exact matches.
 
-This Lab uses the branch `module-6-start`
+This Lab uses the branch `module-3-start`
 
 ---
 
-## Module 6 Lab 1 - Token extraction
+## Module 3 Lab 1 - Token extraction
 
 **Goal:** Generate `theme.ts` from the hardcoded values in `TaskItem.tsx` and `TaskInput.tsx`.
 
@@ -82,7 +82,7 @@ A constrained prompt cuts guessing down - it does not stop it completely.
 
 ---
 
-## Module 6 Lab 2 - Constrained token refactor
+## Module 3 Lab 2 - Constrained token refactor
 
 **Goal:** Refactor `TaskItem.tsx` and `TaskInput.tsx` to consume values from `theme.ts`. Visual appearance must stay identical and `Header.tsx` and `HeroSection.tsx` must not be touched.
 
@@ -169,7 +169,7 @@ The reference answers can be found in `Exercise.md`.
 
 ---
 
-## Module 6 Lab 3 - Performance optimization
+## Module 3 Lab 3 - Performance optimization
 
 **Goal:** Add `React.memo`, `useCallback`, and `useMemo` to `App.tsx` and `TaskItem.tsx` only where listed without over-optimization.
 

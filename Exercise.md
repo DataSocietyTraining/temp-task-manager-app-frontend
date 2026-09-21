@@ -1,8 +1,8 @@
-# Module 6 - Design Tokens and Performance Optimization
+# Module 3 - Design Tokens and Performance Optimization
 
 ## Exercise Solutions
 
-This document contains the reference answers for the two activity tasks in Module 6. Try the tasks first using `Lab.md` before reading these solutions.
+This document contains the reference answers for the two activity tasks in Module 3. Try the tasks first using `Lab.md` before reading these solutions.
 
 ---
 
