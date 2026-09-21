@@ -1,8 +1,8 @@
-# Module 5 - Figma MCP and Variant Prompting
+# Module 2 - Figma MCP and Variant Prompting
 
 ## Exercise Solutions
 
-This document contains the reference answer for the activity task in Module 5. Try the task first using `Lab.md` before reading this solution.
+This document contains the reference answer for the activity task in Module 2. Try the task first using `Lab.md` before reading this solution.
 
 ---
 

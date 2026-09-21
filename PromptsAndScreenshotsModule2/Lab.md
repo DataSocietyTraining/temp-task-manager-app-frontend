@@ -1,18 +1,18 @@
-# Module 5 - Figma MCP and Variant Prompting
+# Module 2 - Figma MCP and Variant Prompting
 
 
 
 ## Lab Guide
 
-This guide contains the demo walkthroughs and the activity instructions for Module 5. Follow each demo alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a validation check.
+This guide contains the demo walkthroughs and the activity instructions for Module 2. Follow each demo alongside the instructor in VS Code. Refer to this document during the session whenever you need to revisit a prompt, a tab list, or a validation check.
 
 > LLM outputs are non-deterministic - your outputs may differ from what the instructor or this guide shows. Treat the references here as expected behavior, not as exact matches.
 
-This Lab uses the branch `module-5-start`
+This Lab uses the branch `module-2-start`
 
 ---
 
-## Module 5 Lab 1 - Connect Figma MCP and extract design context
+## Module 2 Lab 1 - Connect Figma MCP and extract design context
 
 **Goal:** Verify that Copilot can retrieve structured design values from a Figma frame through MCP.
 
@@ -44,10 +44,10 @@ This Lab uses the branch `module-5-start`
 Create a clean working branch from the provided baseline:
 
 ```bash
-git checkout -b module-5-start-attempt module-5-start
+git checkout -b module-2-start-attempt module-2-start
 ```
 
-This keeps `module-5-start` untouched as a safe fallback and gives you a known baseline to restore to between demos.
+This keeps `module-2-start` untouched as a safe fallback and gives you a known baseline to restore to between demos.
 
 
 ### Prompt
@@ -73,7 +73,7 @@ Get design context from this Figma frame
 
 ---
 
-## Module 5 Lab 2 - Vague vs constrained Figma prompt
+## Module 2 Lab 2 - Vague vs constrained Figma prompt
 
 **Goal:** Compare how prompt specificity changes structure and scope when the same Figma source is used.
 
@@ -154,7 +154,7 @@ Same Figma source, different prompt discipline:
 
 ---
 
-## Module 5 Demo 3 - Variant prompting with TaskItem states
+## Module 2 Demo 3 - Variant prompting with TaskItem states
 
 **Goal:** Generate a single component that supports two design states through a prop.
 
@@ -264,4 +264,4 @@ Wire this into App.tsx for full navigation behavior so I can see how it works
 
 The reference answers can be found in `Exercise.md`.
 
-The next Lab begins on the branch `module-6-start`
+The next Lab begins on the branch `module-3-start`
