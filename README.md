@@ -8,7 +8,7 @@ The backend uses TypeScript, Express, and Zod for validation. The frontend uses 
 
 You have two folders:
 
-- **`temp-task-manager-app`** — your working directory. Everything you build through prompting goes here.
+- **`temp-task-manager-app-frontend`** — your working directory. Everything you build through prompting goes here.
 - **`task-manager-app`** — the complete reference implementation. If you get stuck, copy what you need from here and continue.
 
 ---
@@ -35,7 +35,7 @@ pnpm dev:frontend
 ## Repository Structure
 
 ```
-temp-task-manager-app/
+temp-task-manager-app-frontend/
 ├── packages/
 │   ├── backend/
 │   │   └── src/
