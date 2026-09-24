@@ -154,7 +154,7 @@ Same Figma source, different prompt discipline:
 
 ---
 
-## Module 2 Demo 3 - Variant prompting with TaskItem states
+## Module 2 Lab 3 - Variant prompting with TaskItem states
 
 **Goal:** Generate a single component that supports two design states through a prop.
 
